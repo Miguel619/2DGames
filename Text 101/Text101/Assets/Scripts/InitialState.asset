@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 97f228e5fc349444e816fa0170d2f90e, type: 3}
+  m_Name: InitialState
+  m_EditorClassIdentifier: 
+  storyText: "Order after order you quickly cook the meal. Your feet can barely hold
+    you up after hours of tirelessly satisfying the customers. \r\n\r\nYour co-worker
+    comes over and asks:\r\n\u201CHey chef! Would you like a hand?\u201D\r\n\r\nWhat
+    do you say?\r\n\n1.\t\u201COh god yes, I\u2019m barely holding it together here\u201D\r\n2.\t\u201CNo
+    no I got it handled!\u201D\r\n"
