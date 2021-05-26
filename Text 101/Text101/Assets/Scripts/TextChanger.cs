@@ -8,7 +8,6 @@ public class TextChanger : MonoBehaviour
     [SerializeField] Text textComponent;
     [SerializeField] State initialState;
 
-    int[] oddNumbers = { 1, 3, 5, 7, 9 };
     State currentState;
 
     void Start()
@@ -20,6 +19,20 @@ public class TextChanger : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        ManageState();
+    }
+    private void ManageState(){
+        var nextStates = currentState.GetNextState();
+        if(Input.GetKeyDown(KeyCode.Alpha1)){
+            currentState = nextStates[0];
+            
+        }else if(Input.GetKeyDown(KeyCode.Alpha2)){
+            currentState = nextStates[1];
+            
+        }else if(Input.GetKeyDown(KeyCode.Alpha3)){
+            currentState = nextStates[2];
+            
+        }
+        textComponent.text = currentState.GetStateStory();
     }
 }
